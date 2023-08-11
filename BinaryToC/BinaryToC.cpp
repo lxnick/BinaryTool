@@ -12,6 +12,7 @@ void usage(void)
 	printf("\nBinaryToC\n");
 	printf("\t<binary filename> <c style filename> <data array name>\n");
 	printf("example:\n");
+	printf("\tBinaryToC hello_world_float.tflite hello_world_float_model hello_world_float_data\n");
 }
 
 bool LoadFile(char* pszfile, unsigned char ** buffer, unsigned long* length)
